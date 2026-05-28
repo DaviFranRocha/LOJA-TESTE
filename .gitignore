@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment — NUNCA commitar estes arquivos
+.env
+backend/.env
+frontend/.env.local
+
+# Build
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+backend/.prisma/
