@@ -105,7 +105,7 @@ export default function AccountPage() {
   if (!user) return null;
 
   const initials = user.name?.split(' ').map((n: string) => n[0]).slice(0, 2).join('').toUpperCase() || '?';
-  const memberSince = new Date(user.createdAt || Date.now()).toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
+  const memberSince = new Date((user as any).createdAt || Date.now()).toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
 
   return (
     <>
