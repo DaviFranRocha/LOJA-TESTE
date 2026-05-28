@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 FRANCISCO STORE — E-Commerce Premium
 
 Sistema de e-commerce **enterprise** completo com painel administrativo, pagamentos integrados e segurança máxima.
@@ -140,3 +141,6 @@ cd frontend && npm install && npm run dev
 ---
 
 **Francisco Store** © 2025 — Todos os direitos reservados.
+=======
+# LOJA-TESTE
+>>>>>>> e5f2b55cf89e66ded62a57ed3c6ec2c28a609186
